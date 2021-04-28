@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/layout03" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/label" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:text="用户名：">
+	</TextView>
+	<EditText android:id="@+id/entry" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:layout_below="@id/label">
+	</EditText>
+	<Button android:id="@+id/cancel" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_alignParentRight="true" 
+		android:layout_marginLeft="10dip" 
+		android:layout_below="@id/entry" 
+		android:text="取消" >
+	</Button>
+		<Button android:id="@+id/ok" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_toLeftOf="@id/cancel" 
+		android:layout_alignTop="@id/cancel"
+		android:text="确认">
+	</Button>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<people> 
+  <person name="李某某" age="21" height="1.81" /> 
+  <person name="王某某" age="25" height="1.76" /> 
+  <person name="张某某" age="20" height="1.69" /> 
+</people>

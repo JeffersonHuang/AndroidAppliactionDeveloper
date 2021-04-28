@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<EditText android:id="@+id/entry"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+	</EditText>
+	<CheckBox android:id="@+id/block"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="返回true，阻止将按键事件传递给界面元素" >
+	</CheckBox>
+	<TextView android:id="@+id/label"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="按键事件信息" >
+	</TextView>
+
+</LinearLayout>

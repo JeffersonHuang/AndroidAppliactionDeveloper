@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView  android:id="@+id/touch_area"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="300dip" 
+    	android:background="#80A0FF" 
+    	android:textColor="#FFFFFF" 
+    	android:text="触摸事件测试区域">
+	</TextView>
+	<TextView android:id="@+id/history_label"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="历史数据量：" >
+	</TextView>
+	<TextView android:id="@+id/event_label" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="触摸事件：" >
+	</TextView>
+</LinearLayout>
